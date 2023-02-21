@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <WeatherWidget />
   </div>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import Vue from 'vue'
+import WeatherWidget from './components/WeatherWidget.vue'
 
 export default Vue.extend({
-  name: "App",
+  name: 'App',
   components: {
-    HelloWorld,
+    WeatherWidget,
   },
-});
+})
 </script>
 
 <style lang="scss">

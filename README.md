@@ -20,5 +20,12 @@ yarn build
 yarn lint
 ```
 
+---
+
+## Development
+
+### Generation types
+See [Quicktype](https://app.quicktype.io/)
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
